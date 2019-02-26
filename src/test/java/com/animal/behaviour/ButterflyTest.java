@@ -27,6 +27,6 @@ public class ButterflyTest extends AbstractTest {
     @Test
     public void testSing() {
         butterfly.sing();
-        assertThat(sysOut.asString(), containsString("Can not sing"));
+        assertThat(sysOut.asString(), containsString("I am singing"));
     }
 }

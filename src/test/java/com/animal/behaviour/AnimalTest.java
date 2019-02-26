@@ -13,6 +13,6 @@ public class AnimalTest  extends AbstractTest{
     public void testWalk(){
         Animal animal= new Animal();
         animal.walk();
-        assertThat(sysOut.asString(), containsString("I am walking"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 }

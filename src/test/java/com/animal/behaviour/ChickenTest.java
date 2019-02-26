@@ -21,7 +21,7 @@ public class ChickenTest extends AbstractTest {
     @Test
     public void testFly() {
         chicken.fly();
-        assertThat(sysOut.asString(), containsString("Can not fly"));
+        assertThat(sysOut.asString(), containsString("I am flying"));
     }
 
     @Test

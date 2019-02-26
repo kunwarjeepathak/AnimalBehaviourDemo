@@ -19,12 +19,12 @@ public class CaterpillarTest extends AbstractTest{
     @Test
     public void testWalk() {
         caterpillar.walk();
-        assertThat(sysOut.asString(), containsString("I am crawling"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 
     @Test
     public void testFly() {
         caterpillar.fly();
-        assertThat(sysOut.asString(), containsString("Can not fly"));
+        assertThat(sysOut.asString(), containsString("I am flying"));
     }
 }

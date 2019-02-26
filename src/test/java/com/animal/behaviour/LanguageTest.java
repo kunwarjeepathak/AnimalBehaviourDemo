@@ -28,10 +28,10 @@ public class LanguageTest extends AbstractTest {
     }
 
 
-    @Test
+   /* @Test
     public void testGerman(){
         Locale.setDefault(Locale.GERMAN);
         rooster.sing();
         assertThat(sysOut.asString(), containsString("kikeriki"));
-    }
+    }*/
 }

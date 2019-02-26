@@ -22,18 +22,18 @@ public class FishTest extends AbstractTest {
     @Test
     public void testWalk() {
         fish.walk();
-        assertThat(sysOut.asString(), containsString("Can not walk"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 
     @Test
     public void testSing() {
         fish.sing();
-        assertThat(sysOut.asString(), containsString("Can not sing"));
+        assertThat(sysOut.asString(), containsString("I am singing"));
     }
 
     @Test
     public void testSwim() {
         fish.swim();
-        assertThat(sysOut.asString(), containsString("I am swimming"));
+        assertThat(sysOut.asString(), containsString("Great swimmers"));
     }
 }

@@ -15,7 +15,7 @@ public interface SingBehaviour {
             locale= Locale.ENGLISH;
         }
 
-        ResourceBundle bundleFR = ResourceBundle.getBundle("ApplicationMessages", locale);
+        ResourceBundle bundleFR = ResourceBundle.getBundle("Application", locale);
         return bundleFR;
     }
 

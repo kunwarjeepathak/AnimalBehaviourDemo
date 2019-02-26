@@ -7,6 +7,7 @@ public class SwimBehaviourImpl implements  SwimBehaviour{
 	@Override
 	public void swim() {
 		// TODO Auto-generated method stub
+		System.out.println("Great swimmers");
 		
 	}
 

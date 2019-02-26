@@ -10,13 +10,13 @@ public class CountAnimals {
 
 
 
-    public int  walkCount(Parent vertebrates[]) {
+    public int  walkCount(Parent animals[]) {
         int count=0;
-        if(vertebrates.length==0){
+        if(animals.length==0){
             return count;
         }
 
-        for(Parent vertibrate:vertebrates){
+        for(Parent vertibrate:animals){
             if(vertibrate.getWalkBehaviour()!=null &&  vertibrate.getWalkBehaviour() instanceof WalkBehaviourImpl){
                 count++;
             }
@@ -24,33 +24,33 @@ public class CountAnimals {
         return count;
     }
 
-    public int flyCount(Parent[] vertebrates) {
+    public int flyCount(Parent[] animals) {
         int count=0;
-        for(Parent vertebrate:vertebrates){
-            if(vertebrate.getFlyBehaviour()!=null
-                    && vertebrate.getFlyBehaviour() instanceof FlyBehaviourImpl){
+        for(Parent animal:animals){
+            if(animal.getFlyBehaviour()!=null
+                    && animal.getFlyBehaviour() instanceof FlyBehaviourImpl){
                 count++;
             }
         }
         return count;
     }
 
-    public int singCount(Parent[] vertebrates) {
+    public int singCount(Parent[] animals) {
         int count=0;
-        for(Parent vertebrate:vertebrates){
-            if(vertebrate.getSingBehaviour()!=null
-                    && vertebrate.getSingBehaviour() instanceof SingBehaviourImpl){
+        for(Parent animal:animals){
+            if(animal.getSingBehaviour()!=null
+                    && animal.getSingBehaviour() instanceof SingBehaviourImpl){
                 count++;
             }
         }
         return count;
     }
 
-    public int swimCount(Parent[] vertebrates) {
+    public int swimCount(Parent[] animals) {
         int count=0;
-        for(Parent vertebrate:vertebrates){
-            if(vertebrate.getSwimBehaviour()!=null
-                    && vertebrate.getSwimBehaviour() instanceof SwimBehaviourImpl){
+        for(Parent animal:animals){
+            if(animal.getSwimBehaviour()!=null
+                    && animal.getSwimBehaviour() instanceof SwimBehaviourImpl){
                 count++;
             }
         }

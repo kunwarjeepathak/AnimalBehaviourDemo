@@ -30,7 +30,7 @@ public class DuckTest {
     @Test
     public void testSwim() {
         duck.swim();
-        assertThat(sysOut.asString(), containsString("I am swimming"));
+        assertThat(sysOut.asString(), containsString("Great swimmers"));
     }
 
 

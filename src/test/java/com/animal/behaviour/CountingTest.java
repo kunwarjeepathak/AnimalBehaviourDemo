@@ -49,19 +49,19 @@ public class CountingTest extends AbstractTest {
     @Test
     public void testWalkableCount(){
         int count= this.countAnimals.walkCount(animals);
-        assertEquals(8,count);
+        assertEquals(13,count);
     }
 
     @Test
     public void testFlyableCount(){
         int count= this.countAnimals.flyCount(animals);
-        assertEquals(5,count);
+        assertEquals(6,count);
     }
 
     @Test
     public void testSingableCount(){
         int count= this.countAnimals.singCount(animals);
-        assertEquals(8,count);
+        assertEquals(13,count);
     }
 
     @Test

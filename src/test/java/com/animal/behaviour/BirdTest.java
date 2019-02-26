@@ -24,7 +24,7 @@ public class BirdTest {
     @Test
     public void testWalk() {
         bird.walk();
-        assertThat(sysOut.asString(), containsString("I am walking"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 
 

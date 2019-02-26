@@ -21,13 +21,13 @@ public class DolphinTest extends AbstractTest {
     @Test
     public void testWalk() {
         dolphin.walk();
-        assertThat(sysOut.asString(), containsString("Can not walk"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 
     @Test
     public void testSing() {
         dolphin.sing();
-        assertThat(sysOut.asString(), containsString("Can not sing"));
+        assertThat(sysOut.asString(), containsString("I am singing"));
     }
 
 

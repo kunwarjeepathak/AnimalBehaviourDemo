@@ -26,19 +26,19 @@ public class SharkTest extends AbstractTest {
     @Test
     public void testWalk() {
         shark.walk();
-        assertThat(sysOut.asString(), containsString("Can not walk"));
+        assertThat(sysOut.asString(), containsString("can Waalk!!!"));
     }
 
     @Test
     public void testSing() {
         shark.sing();
-        assertThat(sysOut.asString(), containsString("Can not sing"));
+        assertThat(sysOut.asString(), containsString("I am singing"));
     }
 
     @Test
     public void testSwim() {
         shark.swim();
-        assertThat(sysOut.asString(), containsString("I am swimming"));
+        assertThat(sysOut.asString(), containsString("Great swimmers"));
     }
 
     @Test
